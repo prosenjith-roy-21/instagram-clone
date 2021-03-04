@@ -1,0 +1,8 @@
+.profileDropDownOption {
+    display:flex;
+    align-items:center;
+    padding:10px;
+}
+.profileDropDownOption > p{
+    margin-left:20px;
+}

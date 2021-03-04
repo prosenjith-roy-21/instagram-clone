@@ -1,0 +1,36 @@
+.homeAccount {
+    display:flex;
+    padding:10px;
+    align-items: center;
+}
+.homeAccount__text{
+    padding-left:15px;
+    align-self: flex-end;
+    color:grey;
+}
+.homeAccount__text > p:first-child{
+    font-weight: 600;
+    font-size: .9rem;
+    color:black;
+}
+.homeAccount>button{
+    border:none;
+    color:blue;
+    margin-left:auto;
+    background-color: transparent;
+    outline:none;
+    cursor:pointer;
+}
+.homeAccount__img{
+    height: 45px;
+    width:45px;
+    object-fit:cover;
+    border-radius: 999px;
+}
+.homeAccount__myAccount{
+    height: 60px;
+    width:60px;
+    object-fit:cover;
+    border-radius: 999px;
+}
+

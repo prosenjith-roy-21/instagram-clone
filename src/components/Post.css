@@ -1,0 +1,34 @@
+.post {
+    border:1px solid lightgray;
+    display:flex;
+    flex-direction: column;
+    padding:15px 0;
+    margin-bottom:30px;
+    background-color:white;
+}
+.post__header{
+    border-bottom: 1px solid lightgray;
+    padding-left:15px;
+    padding-bottom: 15px;;
+}
+.post__image > img{
+    width: 100%;
+} 
+.post__icons{
+    display: flex;
+    justify-content:space-between;
+}
+.post__icons__left > .MuiSvgIcon-root{
+    padding-left:15px;
+    font-size: 30px;
+}
+.post__icons__right > .MuiSvgIcon-root{
+    font-size: 30px;
+}
+.post__description{
+    margin: 0 10px;
+}
+.post__description > #time {
+    font-size: .7rem;
+    color:gray;
+}
